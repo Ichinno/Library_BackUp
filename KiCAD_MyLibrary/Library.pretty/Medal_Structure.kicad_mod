@@ -1,0 +1,149 @@
+(footprint "Medal_Structure"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF***"
+		(at 101.6 2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4adce22c-8b15-42ad-8569-6f6f9af2d845")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Medal_Structure"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ad1b0e71-0469-4aa3-9f5e-63553405c3db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d24bceb-42ec-47e8-a2ad-6741260ae7fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "826e02ab-363a-4049-aaf8-5d5e4dea8fd2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 0)
+		(end 91 -77)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c2048ee3-b9db-49c4-9732-35fa3bc854ff")
+	)
+	(fp_rect
+		(start 39.5 1)
+		(end 51.5 0)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "77195a96-a5ba-4aa4-bffc-bafd285183a0")
+	)
+	(fp_rect
+		(start 61.7 0)
+		(end 74.2 3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "a09c23ed-0055-4dbb-87c4-dc9938a2b8ab")
+	)
+	(fp_rect
+		(start 91 -35.075)
+		(end 101.6 -44.325)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "10c9da37-3002-46ee-a2f7-556902c69047")
+	)
+	(fp_line
+		(start 61.7 -15)
+		(end 74.2 -15)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "93c028f5-cd57-48e8-9903-6a2504f74fd4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d80ae97d-82e6-422a-83b0-29929dee6eb1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "1"
+		(at 74.2 -80 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "5d5b4b69-0657-4cc8-a73f-7f0645f064e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D Model/电子奖牌B主体.step"
+		(opacity 0.4000)
+		(offset
+			(xyz 0 77 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 180)
+		)
+	)
+)
